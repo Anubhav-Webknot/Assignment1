@@ -8658,7 +8658,9 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 1px solid #f0f0f0; }
+  border: 10px solid #f0f0f0;
+  border-radius: 10px;
+}
   @media (max-width: 991.98px) {
     .product {
       margin-bottom: 30px; } }
@@ -9121,7 +9123,7 @@ h1, h2, h3, h4, h5,
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
-      border-radius: 0;
+      border-radius: 10px;
       font-size: 12px;
       background: #82ae46 !important; }
       .subscribe-form .form-group .submit:hover {
@@ -9243,7 +9245,9 @@ textarea.form-control {
       color: #000000; }
 
 #map {
-  width: 100%; }
+  width: 100%;
+  
+ }
   @media (max-width: 991.98px) {
     #map {
       height: 300px; } }
@@ -9786,7 +9790,8 @@ textarea.form-control {
   border: 1px solid #ccc;
   font-size: 11px; }
   .tagcloud a:hover {
-    border: 1px solid #000; }
+    border: 1px solid #000;
+    background-color: var(--teal); }
 
 .comment-form-wrap {
   clear: both; }
@@ -10011,3 +10016,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .change-colour{
+      background-color: #90EE90;
+    }
